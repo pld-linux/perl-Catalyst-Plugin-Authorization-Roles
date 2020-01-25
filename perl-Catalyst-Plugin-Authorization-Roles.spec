@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Catalyst
 %define	pnam	Plugin-Authorization-Roles
 Summary:	Catalyst::Plugin::Authorization::Roles - Role based authorization for Catalyst based on Catalyst::Plugin::Authentication
